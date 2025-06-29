@@ -35,7 +35,7 @@ const About = () => {
 
                 <div className="flex justify-center my-8">
                     <Button className="cursor-pointer text-violet-500 text-sm sm:text-base">
-                        Download CV
+                        Resume
                     </Button>
                 </div>
         </main>

@@ -3,7 +3,7 @@
 
 "use client";
 
-import { Github, ExternalLink } from "lucide-react";
+import { Github, ExternalLink, MoveRightIcon } from "lucide-react";
 import job from "../assets/job.png";
 import store from "../assets/store.png";
 import tinder from "../assets/weather.png";
@@ -45,7 +45,7 @@ const Projects =()=> {
 	return (
 	<main className="min-h-screen bg-gradient-to-r from-black/100 via-black/95 to-black/90" id="projects">
  		<h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold max-w-7xl mx-auto text-center py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
-			<Cover> Recent Projects</Cover>
+			<Cover> Recent Work</Cover>
 		</h1>
 
 		<section className="grid max-w-[1160px] mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 my-10">
@@ -102,7 +102,7 @@ const Projects =()=> {
 
 		 <div className="flex justify-center py-10">
 			<Button className="cursor-pointer text-violet-500 text-sm sm:text-base">
-				View All
+				MORE &nbsp; <MoveRightIcon className="flex items-center"/>
 			</Button>
 		</div>
 	</main>

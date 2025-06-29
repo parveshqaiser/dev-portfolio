@@ -3,6 +3,7 @@
 "use client"
 import recoil from "../assets/recoil.svg";
 import jwt from "../assets/jsonwebtokens.svg";
+import restapi from "../assets/restapi.svg";
 import { Cover } from '../components/ui/cover';
 
     const categories = [
@@ -16,7 +17,7 @@ import { Cover } from '../components/ui/cover';
         },
         {
             title: "Backend",
-            skills: ["nodejs", "mongodb", "express", "graphql", "jwt"],
+            skills: ["nodejs", "mongodb", "express", "graphql", "jwt", "restapi"],
         },
         {
             title: "Others",
@@ -51,7 +52,8 @@ const Skills =()=>{
                                     skill == "graphql"
                                     ? "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg"
                                     : skill == "recoil" ? recoil 
-                                    : skill =="jwt" ? jwt 
+                                    : skill =="jwt" ? jwt
+                                    : skill =="restapi" ? restapi 
                                     :`https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${skill}/${skill}-original.svg`
                                 }
                                 alt={skill}
