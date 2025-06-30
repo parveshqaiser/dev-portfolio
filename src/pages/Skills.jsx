@@ -1,10 +1,10 @@
 
-
 "use client"
 import recoil from "../assets/recoil.svg";
 import jwt from "../assets/jsonwebtokens.svg";
 import restapi from "../assets/restapi.svg";
 import { Cover } from '../components/ui/cover';
+import { motion } from "framer-motion";
 
     const categories = [
         {
@@ -27,10 +27,16 @@ import { Cover } from '../components/ui/cover';
 
 
 const Skills =()=>{
-//  <section className="border border-b-green-800 min-h-screen px-4  mx-auto bg-gradient-to-l from-black/80 via-black/85 to-black/95 text-white" id="skills"></section>
+
     return (
     <section className="min-h-screen px-4 text-white" id="skills">
-        <main className="max-w-6xl mx-auto">
+        <motion.main 
+            className="max-w-6xl mx-auto"
+            initial={{ opacity: 0, x: 500 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once:true, amount: 0.2 }}
+            transition={{ duration:1.5, ease: 'easeInOut' }}
+        >
             <nav className="text-center mb-12">
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold max-w-7xl mx-auto text-center py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
                     <Cover>Tech Stack</Cover>
@@ -42,7 +48,7 @@ const Skills =()=>{
 
             <nav className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {categories.map((category) => (
-                <div key={category.title} className="bg-gray-800 rounded-lg p-6">
+                <div key={category.title} className="bg-gray-800 rounded-lg p-6 transition-all duration-500 transform hover:-translate-y-6">
                     <h3 className="text-xl font-semibold mb-4 text-center">{category.title}</h3>
                     <div className="flex flex-wrap justify-center gap-4">
                     {category.skills.map((skill) => (
@@ -68,7 +74,7 @@ const Skills =()=>{
                 </div>
                 ))}
             </nav>
-        </main>
+        </motion.main>
        
     </section>
   )
@@ -76,3 +82,5 @@ const Skills =()=>{
 };
 
 export default Skills;
+
+//  <section className="border border-b-green-800 min-h-screen px-4  mx-auto bg-gradient-to-l from-black/80 via-black/85 to-black/95 text-white" id="skills"></section>

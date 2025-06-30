@@ -1,4 +1,5 @@
 
+import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 import { Mail, Github, Linkedin, Twitter} from "lucide-react";
 
     let social = [
@@ -26,20 +27,20 @@ export default function Contact() {
 
 
     return (
-        <main className="min-h-screen max-w-7xl px-5 mx-auto pt-15 pb-10" id="contact">
-            <section className="text-center">
-                <h1 className="text-4xl lg:text-6xl font-bold text-white mb-6">
-                    Let's Work
-                    <span className="block bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                        Together
-                    </span>
-                </h1>
-                <p className="text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed">
-                    Ready to bring your ideas to life? I'm here to help you build something extraordinary.
-                </p>
-            </section>
-
-            <section className="flex justify-center items-center my-10">
+        <BackgroundBeamsWithCollision>
+            <main className="min-h-screen max-w-7xl px-5 mx-auto pt-15 pb-10" id="contact">
+                <section className="text-center">
+                    <h1 className="text-4xl lg:text-6xl font-bold text-white mb-6">
+                        Let's Work
+                        <span className="block bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+                            Together
+                        </span>
+                    </h1>
+                    <p className="text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed">
+                        Ready to bring your ideas to life? I'm here to help you build something extraordinary.
+                    </p>
+                </section>
+                 <section className="flex justify-center items-center my-10">
                 <a
                     href="mailto:imaparvesh75@gmail.com"
                     className="bg-gradient-to-r from-[#4F2428] to-[#311A1C] text-white px-6 py-4 rounded-xl font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg flex items-center gap-2 group"
@@ -80,6 +81,8 @@ export default function Contact() {
                     </div>
                 </aside>
             </footer>
-        </main>
+            </main>
+     
+        </BackgroundBeamsWithCollision>
     )
 }
