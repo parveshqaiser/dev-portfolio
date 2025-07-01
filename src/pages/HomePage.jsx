@@ -19,6 +19,7 @@ const HomePage = () => {
                     <div className="max-w-3xl mx-auto text-sm md:text-base lg:text-lg text-center">
                         <ContainerTextFlip
       			            words={["Full Stack Developer", "Front End Developer", "Back End Developer"]}
+                            className="text-gray-500"
     		            />
                     </div>
                     </BackgroundLines>
