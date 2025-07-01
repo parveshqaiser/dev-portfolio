@@ -3,7 +3,6 @@
 import { useEffect, useState, lazy, Suspense } from "react"
 import HomePage from "./pages/HomePage"
 import Navbar from "./pages/Navbar"
-import FramerMotion from "./pages/FramerMotion";
 
 const About = lazy(() => import("./pages/About"));
 const Skills = lazy(() => import("./pages/Skills"));
@@ -22,12 +21,11 @@ function App() {
 	}, []);
 
 	if (loading) {
-		return <h2 className="text-white min-h-screen text-center pt-30">Loading... </h2>
+		return <h2 className="text-violet-600 min-h-screen text-center text-xl pt-30">Loading...</h2>
 	}
 
 	return (
 		<>
-		{/* <FramerMotion /> */}
 			<Navbar />
 			<HomePage />
 			<Suspense fallback={<h2 className="text-white text-center">Loading section...</h2>}>

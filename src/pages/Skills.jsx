@@ -32,9 +32,9 @@ const Skills =()=>{
     <section className="min-h-screen px-4 text-white" id="skills">
         <motion.main 
             className="max-w-6xl mx-auto"
-            initial={{ opacity: 0, x: 500 }}
+            initial={{ opacity: 0, x: "50vw"}}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once:true, amount: 0.2 }}
+            viewport={{ once:false, amount: 0.2 }}
             transition={{ duration:1.5, ease: 'easeInOut' }}
         >
             <nav className="text-center mb-12">

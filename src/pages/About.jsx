@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 const About = () => {
     return (
-    <main className="relative h-screen w-full overflow-hidden px-4 sm:px-8" id="about">
+    <main className="relative min-h-screen w-full overflow-hidden px-4 sm:px-8" id="about">
         <div
             className={cn(
             'absolute inset-0',
@@ -25,9 +25,9 @@ const About = () => {
                 // initial={{ opacity: 0, x: -500 }}
                 // animate={{ opacity: 1, x: 0 }}
                 // transition={{ duration: 2, ease: 'easeOut' }}
-                initial={{ opacity: 0, x: -500 }}
+                initial={{ opacity: 0, x: "-50vw" }}
                 whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true, amount: 0.2 }}
+                viewport={{ once: false, amount: 0.2 }}
                 transition={{ duration:2, ease: 'easeOut' }}
             >
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold max-w-7xl mx-auto text-center py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
