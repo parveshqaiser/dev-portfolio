@@ -40,7 +40,7 @@ const About = () => {
                     </p>
 
                     <p className='lg:text-[20px] md:text-[18px] text-base'>
-                        Over the years, I have strengthened my expertise in modern state management workflows like Redux and I enjoy crafting visually appealing interfaces using Tailwind CSS and Shadcn.I’m committed to performance optimization at every stage — whether that’s securing RESTful APIs, streamlining data flow, or applying database indexing for efficient queries.
+                        Over the years, I have strengthened my expertise in modern state management workflows like Redux and I enjoy crafting visually appealing interfaces using Tailwind CSS and Shadcn.I’m committed to performance optimization at every stage whether that’s securing RESTful APIs, streamlining data flow, or applying database indexing for efficient queries.
                     </p>
 
                     <p className='lg:text-[20px] md:text-[18px] text-base'>
