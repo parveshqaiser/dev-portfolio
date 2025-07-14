@@ -5,31 +5,26 @@
 
 import { Github, ExternalLink, MoveRightIcon } from "lucide-react";
 import job from "../../public/job.png";
-import store from "../../public/store.png";
 import tinder from "../../public/dating.svg";
-
-// import one from "../../public/gif/one.gif";
-// import two from "../../public/gif/two.gif";
-// import three from "../../public/gif/three.gif";
+import book from "../../public/bookstore.png";
 
 import { Cover } from '../components/ui/cover';
 import { Button } from '@/components/ui/moving-border';
-import { useEffect, useState } from "react";
 
 const projects = [
 	{
 		id: 1,
 		title: "Book Store (E-commerce)",
-		description: "A full-featured online bookstore with MFA ,session, cart, payments, and user management",
-		image: store,
-		techStack: ["React", "Node.js", "MongoDB", "Tailwind"],
+		description: "A full-featured online bookstore with MFA ,session, cart, payments, and user management.",
+		image: book,
+		techStack: ["React", "Node.js", "MongoDB", "Tailwind CSS", "Razorpay"],
 		githubUrl: "https://github.com/parveshqaiser/bookstore-frontend",
 		liveUrl: "http://13.48.59.101/",
 	},
 	{
 		id: 2,
 		title: "Dev Tinder",
-		description: "Connect with fellow developers, send requests, and build your network",
+		description: "Connect with fellow developers, send requests, send messages, and build your network.",
 		image: tinder,
 		techStack: ["React", "Socket.io", "Node.js", "Tailwind"],
 		githubUrl: "https://github.com/parveshqaiser/dev-tinder-frontend",
@@ -38,7 +33,7 @@ const projects = [
 	{
 		id: 3,
 		title: "Job Portal",
-		description: "Modern job board platform for connecting employers with talent",
+		description: "Modern job board platform for connecting employers with talent.",
 		image: job,
 		techStack: ["React", "Express", "MongoBB", "JWT"],
 		githubUrl: "https://github.com/parveshqaiser/mern-job-portal",
