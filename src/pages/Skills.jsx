@@ -17,7 +17,7 @@ import { motion } from "framer-motion";
         },
         {
             title: "Backend",
-            skills: ["nodejs", "mongodb", "express", "graphql", "jwt", "restapi"],
+            skills: ["nodejs", "mongodb", "express", "graphql", "jwt", "restapi" , "mysql"],
         },
         {
             title: "Others",
