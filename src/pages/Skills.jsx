@@ -74,8 +74,7 @@ const Skills =()=>{
                 </div>
                 ))}
             </nav>
-        </motion.main>
-       
+        </motion.main>       
     </section>
   )
 
