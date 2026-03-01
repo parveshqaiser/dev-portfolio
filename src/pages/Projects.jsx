@@ -4,9 +4,9 @@
 "use client";
 
 import { Github, ExternalLink, MoveRightIcon } from "lucide-react";
-import job from "../../public/job.png";
-import tinder from "../../public/dating.svg";
-import book from "../../public/bookstore.png";
+import job from "/job.png";
+import tinder from "/dating.svg";
+import book from "/bookstore.png";
 
 import { Cover } from '../components/ui/cover';
 import { Button } from '@/components/ui/moving-border';

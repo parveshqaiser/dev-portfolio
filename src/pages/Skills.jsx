@@ -13,11 +13,11 @@ import { motion } from "framer-motion";
         },
         {
             title: "Frontend",
-            skills: ["react", "nextjs", "redux", "bootstrap", "tailwindcss", "recoil"],
+            skills: ["react", "nextjs", "redux", "bootstrap", "tailwindcss", "recoil","materialui"],
         },
         {
             title: "Backend",
-            skills: ["nodejs", "mongodb", "express", "graphql", "jwt", "restapi" , "mysql"],
+            skills: ["nodejs", "mongodb", "express", "graphql", "jwt", "restapi" , "mysql","postgresql"],
         },
         {
             title: "Others",
