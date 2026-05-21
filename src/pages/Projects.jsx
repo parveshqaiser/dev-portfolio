@@ -14,7 +14,7 @@ import { Button } from '@/components/ui/moving-border';
 const projects = [
 	{
 		id: 1,
-		title: "Book Store (E-commerce)",
+		title: "Order Management System (E-commerce)",
 		description: "A full-featured online bookstore with MFA ,session, cart, payments, and user management.",
 		image: book,
 		techStack: ["React", "Node.js", "MongoDB", "Tailwind CSS", "Razorpay"],

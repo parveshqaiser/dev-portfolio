@@ -13,7 +13,7 @@ import { motion } from "framer-motion";
         },
         {
             title: "Frontend",
-            skills: ["react", "nextjs", "redux", "bootstrap", "tailwindcss", "recoil","materialui"],
+            skills: ["react", "nextjs", "redux", "bootstrap", "tailwindcss", "recoil","materialui","zustand"],
         },
         {
             title: "Backend",
