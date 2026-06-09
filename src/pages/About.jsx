@@ -36,7 +36,7 @@ const About = () => {
 
                 <article className='my-2 max-w-6xl mx-auto space-y-5 bg-gradient-to-b from-neutral-200 to-neutral-500 bg-clip-text text-transparent px-2 sm:px-4'>
                     <p className="lg:text-[20px] md:text-[18px] text-base">
-                        As a dedicated Full-Stack Web Developer, I specialize in creating robust, high-performance web solutions with a strong foundation in React, Next.js, Node.js, and MongoDB. My passion lies in building user-focused applications that balance solid API Development & Integration with thoughtful UI/UX Design & Prototyping, ensuring each product not only works well but feels intuitive and engaging.
+                       Full Stack Developer with a strong focus on Backend development, experienced in building scalable REST APIs, authentication systems, and transaction-based applications using Node.js, Express.js, MongoDB, PostgreSQL, and React. 
                     </p>
 
                     <p className='lg:text-[20px] md:text-[18px] text-base'>
