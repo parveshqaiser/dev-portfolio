@@ -3,6 +3,7 @@
 import recoil from "../assets/recoil.svg";
 import jwt from "../assets/jsonwebtokens.svg";
 import restapi from "../assets/restapi.svg";
+import drizzle from "../assets/drizzle-orm.svg";
 import { Cover } from '../components/ui/cover';
 import { motion } from "framer-motion";
 
@@ -17,11 +18,11 @@ import { motion } from "framer-motion";
         },
         {
             title: "Backend",
-            skills: ["nodejs", "mongodb", "express", "graphql", "jwt", "restapi" , "mysql","postgresql"],
+            skills: ["nodejs","express", "mongodb","graphql", "jwt", "restapi" , "mysql","postgresql"],
         },
         {
             title: "Others",
-            skills: ["git", "github", "socketio", "firebase", "postman", "reactrouter"],
+            skills: ["git", "github", "socketio", "firebase", "postman", "reactrouter", "drizzle-orm"] 
         },
     ];
 
@@ -60,6 +61,7 @@ const Skills =()=>{
                                     : skill == "recoil" ? recoil 
                                     : skill =="jwt" ? jwt
                                     : skill =="restapi" ? restapi 
+                                    : skill =="drizzle-orm" ? drizzle
                                     :`https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${skill}/${skill}-original.svg`
                                 }
                                 alt={skill}
