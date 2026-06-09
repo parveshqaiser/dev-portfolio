@@ -48,7 +48,7 @@ const About = () => {
                     </p>
 
                     <p className='lg:text-[20px] md:text-[18px] text-base'>
-                        Beyond development, I actively contribute to the open-source software community, where I mentor junior developers, lead technical workshops on React and help student communities grow their skill. I thrive in collaborative environments that value teamwork, clear communication, and continuous learning.
+                        Beyond Development,I enjoy collaborating with teams, contributing to open-source projects, and continuously learning modern technologies including AI-driven applications and backend architectures. 
                     </p>
                 </article>
                 
