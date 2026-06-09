@@ -73,7 +73,7 @@ export default function Contact() {
                 <aside className="border-t border-gray-600">
                     <div className="max-w-7xl mx-auto px-5 flex flex-col md:flex-row justify-between items-center pt-6 gap-4 text-gray-400">
                         <p className="text-sm hover:text-white hover:font-bold">
-                            © 2025 Parvesh Qaiser. Crafted with passion and precision.
+                            © {new Date().getFullYear()} Parvesh Qaiser. Crafted with passion and precision.
                         </p>
                         <p className="text-sm hover:text-white hover:font-bold">
                             Available for freelance opportunities worldwide
