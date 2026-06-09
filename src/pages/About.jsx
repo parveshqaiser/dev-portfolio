@@ -40,7 +40,11 @@ const About = () => {
                     </p>
 
                     <p className='lg:text-[20px] md:text-[18px] text-base'>
-                        Over the years, I have strengthened my expertise in modern state management workflows like Redux and I enjoy crafting visually appealing interfaces using Tailwind CSS and Shadcn.I’m committed to performance optimization at every stage whether that’s securing RESTful APIs, streamlining data flow, or applying database indexing for efficient queries.
+                       Throughout my career, I have been involved in designing and developing robust backend services, creating efficient database structures, and building secure, high-performance APIs. My experience includes working with MongoDB and PostgreSQL for data management, implementing RESTful services, optimizing application performance, and collaborating with cross-functional teams to deliver reliable software solutions.
+                    </p>
+
+                    <p className='lg:text-[20px] md:text-[18px] text-base'>
+                        In addition to backend development, my experience with React.js & Redux has enabled me to understand end-to-end application architecture and effectively collaborate with frontend teams. I am passionate about writing clean, maintainable code and continuously improving system performance and user experience.
                     </p>
 
                     <p className='lg:text-[20px] md:text-[18px] text-base'>
