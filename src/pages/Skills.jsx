@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
     const categories = [
         {
             title: "Languages",
-            skills: ["html5", "css3", "javascript", "c"],
+            skills: ["html5", "css3", "javascript", "c","typescript"],
         },
         {
             title: "Frontend",
